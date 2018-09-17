@@ -1,7 +1,11 @@
-#Hello
+<#
 
-Login-AzureRmAccount 
+1. Find and install the SQLCMD2 module if not present
 
-Get-azurermVm -ResourceGroupName $rgname  -Name Vm01 -OutVariable $glen
 
-Thabo ROcks
+
+#>
+
+Find-Module  Invoke-SqlCmd2  |Install-Module -Verbose -Force
+
+
