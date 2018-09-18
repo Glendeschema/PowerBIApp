@@ -31,7 +31,13 @@ New-AzureRmSqlServerFirewallRule -FirewallRuleName "Allow IP" `
 -ServerName $DBServer.ServerName `
 -ResourceGroupName $RGName -Verbose
 
-$cred = New-Object System.Management.Automation.PSCredential("Glen",(Get-Credential).Password)
+
+
+
+
+
+
+
 
 
 
